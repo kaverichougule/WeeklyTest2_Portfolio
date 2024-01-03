@@ -1,0 +1,29 @@
+.aside{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 2rem;
+    gap: 1.5rem;
+}
+.aside img{
+    height: 150px;
+    width: 150px;
+    border-radius: 1.5rem;
+}
+.aside h1{
+    font-size: 1.2rem;
+    color: white;
+}
+.binaryload{
+    width: 100%;
+    text-align: center;
+    border-radius: 1rem;
+    padding: 0.2rem 0;
+    background-color: #215464;
+    color: white;
+}
+.portfolio_Section{
+    border-top: 1px solid black;
+    padding-top: 2rem;
+}

@@ -1,0 +1,20 @@
+.rightSide{
+    position: relative;
+}
+.Navbar{
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 1rem;
+    background-color: #293F46;
+    border-radius: 0 1rem;
+}
+.Navbar a{
+    text-decoration: none;
+    font-weight: 500;
+    color: hsl(0, 0%, 84%); 
+}
+.navContent{
+    display: flex;
+    gap: 2rem;
+}

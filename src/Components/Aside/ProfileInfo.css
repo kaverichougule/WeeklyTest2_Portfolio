@@ -1,0 +1,29 @@
+.AsideSubSection{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.details{
+    display: flex;
+    gap: 1rem;
+}
+.iconSection{
+    background-color: #212E34;
+    color: #FFDB70;
+    height: 3rem;
+    width: 3rem;
+    border-radius: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.iconHeading{
+    font-size: 0.8rem;
+    color: hsla(0, 0%, 84%, 0.7);
+    margin-bottom: 2px;
+}
+.iconData{
+    font-size: 14px;
+    color: hsl(0, 0%, 98%);
+}

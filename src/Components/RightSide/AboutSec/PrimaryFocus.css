@@ -1,0 +1,30 @@
+.SinglePrimaryCard{
+    display: flex;
+    width: 48.5%;
+    background-image: linear-gradient(
+      to bottom right,
+      rgba(64, 64, 64, 0.452) 100%,
+      rgba(64, 64, 64, 0) 50%
+    );
+    border-radius: 1rem;
+    padding: 2rem 1rem;
+    gap: 1rem;
+}
+.icon img{
+    height: 40px;
+    width: 40px;
+}
+.cardInfo{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+.cardInfo h4{
+    color: white;
+    font-size: 1.1rem;
+}
+.cardInfo p{
+    color: #D6D6D6;
+    font-size: 15px;
+    font-weight: 400;
+}
