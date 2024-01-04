@@ -3,6 +3,7 @@ import "./About.css";
 import data from "./about.json";
 import PrimaryFocus from "./PrimaryFocus";
 import LangSec from "./LangSec";
+import HumanLang from "./HumanLang";
 export default function About() {
   let [showInfo, setInfo] = useState(false);
   let [btn, setBtnText] = useState("↓ Show more ↓");
@@ -24,6 +25,9 @@ export default function About() {
         return ele;
     }
     else if(ele.category==="Programming Languages"){
+        return ele;
+    }
+    else if(ele.category==="Human Languages"){
         return ele;
     }
   });
@@ -114,6 +118,17 @@ export default function About() {
                         return <LangSec name={ele.name} progress={ele.progress} id={ele.id} bgcolor={ele.bgcolor} />
                     })
                 }
+            </div>
+      </div>
+
+      <div className="HumanLangSec">
+            <h4>Human Languages</h4>
+            <div className="subHumLang">
+            {
+                arr2[3].items.map((ele)=>{
+                    return <HumanLang name={ele.name} proficiency={ele.proficiency} progress={ele.progress} id={ele.id} bgcolor={ele.bgcolor} /> 
+                })
+            }
             </div>
       </div>
     </div>

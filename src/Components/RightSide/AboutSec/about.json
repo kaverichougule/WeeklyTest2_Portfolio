@@ -63,25 +63,29 @@
           "name": "English",
           "proficiency": "Fluent",
           "progress": "100",
-          "id": "19"
+          "id": "19",
+          "bgcolor":"yellow"
         },
         {
           "name": "German",
           "proficiency": "Fluent",
           "progress": "100",
-          "id": "20"
+          "id": "20",
+          "bgcolor":"yellow"
         },
         {
           "name": "Bulgarian",
           "proficiency": "Native",
           "progress": "100",
-          "id": "21"
+          "id": "21",
+          "bgcolor":"yellow"
         },
         {
           "name": "Turkish",
           "proficiency": "Bilingual",
           "progress": "80",
-          "id": "22"
+          "id": "22",
+          "bgcolor":"yellow"
         }
       ]
     },
