@@ -1,0 +1,41 @@
+.ProjectSec{
+    width: 100%;
+    padding: 2rem;
+    display: flex;
+    gap: 2rem;
+    flex-direction: column;
+}
+.ProjectSec h2{
+    font-size: 2rem;
+    color: white;
+}
+.ProjectSec h2::after{
+    position: absolute;
+    content: "";
+    top: 5.5rem;
+    left: 2rem;
+    border-radius: 2rem;
+    width: 5%;
+    height: 5px;
+    background: linear-gradient(
+        to right,
+        hsl(45, 100%, 72%),
+        hsl(35, 100%, 68%)
+      );
+}
+
+.ProjectNav{
+    display: flex;
+    color: #D6D6D6;
+    gap: 1rem;
+}
+.active{
+    color: hsl(45, 100%, 72%);
+}
+.myAllProjects{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: space-between;
+}

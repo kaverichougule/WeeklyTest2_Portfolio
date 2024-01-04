@@ -1,0 +1,57 @@
+[
+    {
+        "category":"Email:",
+        "items":[
+            {
+                "email":"oktayshakirov@gmail.com"
+            }
+        ]
+    },
+    {
+        "category":"Schedule Video Call With Me:",
+        "items":[
+            {
+                "meet":"https://oktayshakirov.com/assets/images/calendar.png"
+            }
+        ]
+    },
+    {
+        "category":"Socials:",
+        "items":[
+            {
+                "Src":"https://github.com/oktayshakirov",
+                "Img":"https://oktayshakirov.com/assets/images/socials/github.png"
+            },
+            {
+                "Src":"https://www.linkedin.com/in/oktayshakirov",
+                "Img":"https://oktayshakirov.com/assets/images/socials/linkedin.png"
+            },
+            {
+                "Src":"https://www.instagram.com/oktay.shakirov/",
+                "Img":"https://oktayshakirov.com/assets/images/socials/instagram.png"
+            },
+            {
+                "Src":"https://twitter.com/oktayshakirov",
+                "Img":"https://oktayshakirov.com/assets/images/socials/twitter.png"
+            }
+        ]
+    },
+    {
+        "category":"Support My Work:",
+        "para":"Your support fuels my development journey! With every small donation, you contribute to hostings, domains and other essential costs. All my work is open source and free for everyone to use.",
+        "items":[
+            {
+                "Src":"https://www.buymeacoffee.com/oktayshakirov",
+                "Img":"https://oktayshakirov.com/assets/images/coffee-sponsort.png"
+            },
+            {
+                "Src":"https://github.com/sponsors/oktayshakirov",
+                "Img":"https://oktayshakirov.com/assets/images/github-sponsors.png"
+            },
+            {
+                "Src":"https://www.paypal.com/paypalme/OShakirov",
+                "Img":"https://oktayshakirov.com/assets/images/paypalme.png"
+            }
+        ]
+    }
+]

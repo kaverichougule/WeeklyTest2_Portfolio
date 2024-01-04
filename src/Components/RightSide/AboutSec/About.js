@@ -120,7 +120,7 @@ export default function About() {
                 }
             </div>
       </div>
-
+              
       <div className="HumanLangSec">
             <h4>Human Languages</h4>
             <div className="subHumLang">
@@ -130,6 +130,10 @@ export default function About() {
                 })
             }
             </div>
+      </div>
+
+      <div className="DevelopmentSkillsSec">
+      
       </div>
     </div>
   );

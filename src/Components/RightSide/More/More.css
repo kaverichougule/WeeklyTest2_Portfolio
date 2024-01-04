@@ -1,0 +1,24 @@
+.MoreSec{
+    padding: 2rem;
+    display: flex;
+    gap: 2rem;
+    flex-direction: column;
+}
+.MoreSec h2{
+    font-size: 2rem;
+    color: white;
+}
+.MoreSec h2::after{
+    position: absolute;
+    content: "";
+    top: 5.5rem;
+    left: 2rem;
+    border-radius: 2rem;
+    width: 5%;
+    height: 5px;
+    background: linear-gradient(
+        to right,
+        hsl(45, 100%, 72%),
+        hsl(35, 100%, 68%)
+      );
+}

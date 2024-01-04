@@ -1,0 +1,11 @@
+.Supportcss{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.supportImg{
+    width: 11rem;
+    border-radius: 0.5rem;
+}
