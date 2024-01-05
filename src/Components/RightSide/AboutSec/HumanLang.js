@@ -11,7 +11,7 @@ const HumanLang=(props)=>{
     const Childdiv = {
         height: "100%",
         width: props.progress + "%",
-        backgroundColor: props.bgcolor,
+        background: `linear-gradient(to right, rgb(255, 219, 112), rgb(255, 187, 92))`,
         borderRadius: 40,
         textAlign: "right",
     };

@@ -115,7 +115,7 @@ export default function About() {
             <div className="AllLangSec">
                 {
                     arr2[2].items.map((ele)=>{
-                        return <LangSec name={ele.name} progress={ele.progress} id={ele.id} bgcolor={ele.bgcolor} />
+                        return <LangSec name={ele.name} progress={ele.progress} id={ele.id} />
                     })
                 }
             </div>
@@ -126,13 +126,17 @@ export default function About() {
             <div className="subHumLang">
             {
                 arr2[3].items.map((ele)=>{
-                    return <HumanLang name={ele.name} proficiency={ele.proficiency} progress={ele.progress} id={ele.id} bgcolor={ele.bgcolor} /> 
+                    return <HumanLang name={ele.name} proficiency={ele.proficiency} progress={ele.progress} id={ele.id}  /> 
                 })
             }
             </div>
       </div>
 
       <div className="DevelopmentSkillsSec">
+            
+      </div>
+
+      <div className="FavActivities">
       
       </div>
     </div>
