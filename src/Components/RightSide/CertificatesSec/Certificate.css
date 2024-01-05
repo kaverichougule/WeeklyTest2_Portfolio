@@ -4,6 +4,7 @@
     display: flex;
     gap: 2rem;
     flex-direction: column;
+    width: 100%;
 }
 .certificateSec h2{
     font-size: 2rem;
