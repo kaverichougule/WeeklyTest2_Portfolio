@@ -31,11 +31,16 @@ function SingleProjectCard(props) {
             </div>
             <div className="imgInfo">
                 <h3>{props.title}</h3>
+                <div className="pTag">
                 <p className='Carddesc'>{props.desc}</p>
                 <p className='Carddesc'>{props.technology}</p>
+                </div>
                 <div className="Preview">
                     <a href={props.preview} className='previewBtn'>
-                        <button style={{backgroundColor:bgColor}} disabled={showProj}>Preview</button>
+                        <button style={{backgroundColor:bgColor}} disabled={showProj}>
+                            <i class="fa-regular fa-eye iconGap"></i>
+                            Preview
+                        </button>
                     </a>
                     <a href={props.github} className='previewBtn'>
                         <button style={{backgroundColor:bgColor}} disabled={gitAcc}>Github</button>
