@@ -1,16 +1,48 @@
-import './App.css';
-import Aside from "./Components/Aside/Aside";
-import RightSide from "./Components/RightSide/RightSide";
+import React from "react";
+import { useState } from "react";
+import "./App.css";
+import Header from "./Components/Header/Header";
+import Sidepanel from "./Components/Sidepanel/Sidepanel";
+import AboutPage from "./Components/AboutPage/AboutPage";
+import ProjectPage from "./Components/ProjectPage/ProjectPage";
+import CertificatePage from "./Components/CertificatesPage/CertificatePage";
+import MorePage from "./Components/MorePage/MorePage";
+import ContactUs from "./Components/Contact/ContactUs";
+
 function App() {
+  const [selectedTab, setSelectedTab] = useState("about");
+  const [nextBtn, setNextBtn] = useState(0);
+
+  const pageArray = ["about", "certificates", "projects", "more", "contact"];
+
+  const changePage = ()=>{
+    let headerOptions = document.querySelectorAll(".links");
+    headerOptions.forEach((item)=> item.classList.remove("selected"));
+
+    setNextBtn((prev)=>{
+      let next = (prev + 1)%5;
+      headerOptions[next].classList.add("selected");
+      setSelectedTab(pageArray[next]);
+      return next;
+    });
+    
+  }
+
   return (
-    <div className="App">
-      <div className="section1">
-        <Aside />
+    <>
+      <Sidepanel />
+      <div className="App">
+        <Header tab={selectedTab} setTab={setSelectedTab} setNextBtn={setNextBtn} />
+        {
+          (selectedTab === "about") ? <AboutPage /> : (selectedTab === "certificates") ? <CertificatePage /> : (selectedTab === "projects") ? <ProjectPage /> : (selectedTab === "more") ? <MorePage /> : <ContactUs />
+        }
+        <div className="nextBtnCont">
+          <button className="nextBtn" onClick={changePage}>
+            Next <i class="fa-solid fa-angle-right"></i>
+          </button>
+        </div>
       </div>
-      <div className="section2">
-        <RightSide />
-      </div>
-    </div>
+    </>
   );
 }
 

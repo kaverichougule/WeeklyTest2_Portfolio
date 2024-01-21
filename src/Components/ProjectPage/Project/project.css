@@ -1,0 +1,66 @@
+.project{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    cursor: pointer;
+    flex-grow: 1;
+}
+
+.project:hover .projectImg img{
+    filter: brightness(0.5);
+}
+
+.projectImg{
+    width: 100%;
+    height: 9rem;
+    border-radius: 0.5rem;
+}
+
+.projectImg img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 0.5rem;
+}
+
+.projDetails{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.3rem;
+}
+
+.projTitle{
+    color: #FAFAFA;
+}
+
+.projCategory, .techUsed{
+    font-size: 0.9375rem;
+    color: RGBA(214, 214, 214, 0.7);
+}
+
+.prevLink, .gitLink{
+    width: 100%;
+    text-decoration: none;
+    border-radius: 0.3rem;
+}
+
+.previewBtn, .githubBtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    width: 100%;
+    padding: 0.25rem 0;
+    border-radius: 0.3rem;
+    border: none;
+    color: #FFDB70;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.prevLink:hover, .gitLink:hover{ 
+    background-color: rgba(0, 0, 0, 0.4);
+}
