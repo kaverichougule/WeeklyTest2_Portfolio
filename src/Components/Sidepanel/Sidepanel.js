@@ -11,7 +11,7 @@ const Sidepanel = () => {
           alt=""
           className="avatar"
         />
-        <h1>Lokesh Kataria</h1>
+        <h1>Kaveri Chougule</h1>
         <p className="helloWorld">Hello, World !</p>
         <hr />
         <div className="ageContainer">
@@ -20,7 +20,7 @@ const Sidepanel = () => {
           </div>
           <div className="ageDetails">
             <p className="ageText">AGE</p>
-            <p className="age">25 years old</p>
+            <p className="age">22 years old</p>
           </div>
         </div>
         <div className="locationContainer">
@@ -29,7 +29,7 @@ const Sidepanel = () => {
           </div>
           <div className="locationDetails">
             <p className="locationText">LOCATION</p>
-            <p className="location">Delhi, India</p>
+            <p className="location">Dhule, India</p>
           </div>
         </div>
         <div className="personalityContainer">

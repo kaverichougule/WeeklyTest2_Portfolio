@@ -22,7 +22,7 @@ const Aboutme = () => {
           </h1>
           <div className="aboutDetailsContainer">
             <p className="aboutContent" style={{ height: aboutHeight }}>
-              Hello there! 👋 My name is Oktay and I'm from Berlin, Germany. As
+              Hello there! 👋 My name is Kaveri Chougule and I'm from Dhule, India. As
               a Full-Stack software developer, I specialize in creating visually
               appealing websites, apps and mobile games. My passion for graphic
               design isn't just a hobby, it's a key ingredient in every project
